@@ -26,4 +26,5 @@ public class Ex2480 {
         }
 
     }
+
 }
