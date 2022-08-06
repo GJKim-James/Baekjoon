@@ -24,7 +24,7 @@ public class Ex2751 {
         }
 
         // ArrayList 에 담긴 배열 정렬
-        Collections.sort(list);
+       Collections.sort(list);
 
         for (int value : list) {
             sb.append(value).append("\n");
