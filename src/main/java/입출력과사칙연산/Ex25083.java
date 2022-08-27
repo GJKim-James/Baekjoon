@@ -1,3 +1,5 @@
+package 입출력과사칙연산;
+
 public class Ex25083 {
 
     public static void main(String[] args) {
