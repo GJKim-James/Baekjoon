@@ -1,3 +1,5 @@
+package 조건문;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +16,10 @@ public class Ex1330 {
         int A = Integer.parseInt(st.nextToken());
         int B = Integer.parseInt(st.nextToken());
 
-        System.out.println((A > B) ? ">" : ((A < B) ? "<" : "=="));
+        // A가 B보다 큰 경우에는 '>'를 출력
+        // A가 B보다 작은 경우에는 '<'를 출력
+        // A와 B가 같은 경우에는 '=='를 출력
+        System.out.print((A > B) ? ">" : ((A < B) ? "<" : "=="));
 
     }
 
