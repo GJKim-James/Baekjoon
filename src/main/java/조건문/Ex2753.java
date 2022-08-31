@@ -1,3 +1,5 @@
+package 조건문;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,6 +12,7 @@ public class Ex2753 {
 
         int year = Integer.parseInt(br.readLine());
 
+        // 윤년이면 1, 아니면 0 출력
         if (year % 4 == 0) {
             if (year % 400 == 0) {
                 System.out.println("1");
