@@ -1,3 +1,5 @@
+package 조건문;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,9 +14,10 @@ public class Ex2884 {
         String str = br.readLine();
         StringTokenizer st = new StringTokenizer(str, " ");
 
-        int H = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
+        int H = Integer.parseInt(st.nextToken()); // 시
+        int M = Integer.parseInt(st.nextToken()); // 분
 
+        // 입력 시간보다 45분 일찍 알람 설정하기
         if (M < 45) {
             H--;
             M = 60 - (45 - M);
