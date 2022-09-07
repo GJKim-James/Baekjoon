@@ -1,3 +1,5 @@
+package 반복문;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,6 +14,7 @@ public class Ex8393 {
 
         int sum = 0;
 
+        // 1부터 n까지의 합
         for (int i = 1; i <= n; i++) {
             sum += i;
         }
