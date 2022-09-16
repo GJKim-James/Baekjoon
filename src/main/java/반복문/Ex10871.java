@@ -1,3 +1,5 @@
+package 반복문;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
@@ -17,6 +19,7 @@ public class Ex10871 {
 
         st = new StringTokenizer(br.readLine(), " ");
 
+        // N개의 숫자 중에서 X보다 작은 수 찾기
         for (int i = 0; i < N; i++) {
             int num = Integer.parseInt(st.nextToken()); // 1 10 4 9 2 3 8 5 7 6
 
