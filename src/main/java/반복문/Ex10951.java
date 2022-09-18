@@ -1,3 +1,5 @@
+package 반복문;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
@@ -7,6 +9,8 @@ public class Ex10951 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        System.out.println("입력이 끝나면 Ctrl + D 를 눌러주세요.");
 
         String str;
 
