@@ -1,3 +1,5 @@
+package 배열;
+
 import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
@@ -24,6 +26,7 @@ public class Ex10818 {
 
         Arrays.sort(arr); // 7 10 20 30 35
 
+        // N개의 정수 중 최솟값과 최댓값 출력
         bw.write(arr[0] + " " + arr[N - 1]); // 7 35
 
         br.close();
