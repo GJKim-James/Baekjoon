@@ -1,3 +1,5 @@
+package 배열;
+
 import java.io.*;
 
 public class Ex2562 {
@@ -27,6 +29,7 @@ public class Ex2562 {
             }
         }
 
+        // 9개의 서로 다른 자연수 중 첫째 줄에 최댓값을 출력하고, 둘째 줄에 최댓값이 몇 번째 수인지를 출력
         bw.write(String.valueOf(max) + "\n"); // 85
         bw.write(String.valueOf(index)); // 8
 
