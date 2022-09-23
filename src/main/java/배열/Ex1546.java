@@ -28,6 +28,7 @@ public class Ex1546 {
             sum += (arr[i] / arr[arr.length - 1] * 100);
         }
 
+        // 평균 출력
         bw.write(String.valueOf(sum / arr.length));
 
         br.close();
