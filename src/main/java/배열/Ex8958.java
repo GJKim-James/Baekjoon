@@ -1,3 +1,5 @@
+package 배열;
+
 import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
