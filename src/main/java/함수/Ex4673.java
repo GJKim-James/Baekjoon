@@ -1,3 +1,5 @@
+package 함수;
+
 public class Ex4673 {
 
     public static void main(String[] args) {
