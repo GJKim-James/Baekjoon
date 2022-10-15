@@ -23,8 +23,8 @@ public class Ex1026 {
             B[i] = Integer.parseInt(st2.nextToken()); // 2 7 8 3 1
         }
 
-        Arrays.sort(A);
-        Arrays.sort(B);
+        Arrays.sort(A); // 0 1 1 1 6
+        Arrays.sort(B); // 1 2 3 7 8
 
         int sum = 0;
         for (int j = 0; j < N; j++) {
