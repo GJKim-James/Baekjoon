@@ -31,6 +31,7 @@ public class Ex1032 {
             } else {
                 System.out.print(arr[0].charAt(i));
             }
+            // config????
         }
 
     }
