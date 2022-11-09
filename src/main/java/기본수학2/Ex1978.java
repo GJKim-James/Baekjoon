@@ -11,9 +11,9 @@ public class Ex1978 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = Integer.parseInt(br.readLine()); // 주어진 숫자 갯수
+        int N = Integer.parseInt(br.readLine()); // 주어진 숫자 갯수 ex) 4
 
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        StringTokenizer st = new StringTokenizer(br.readLine(), " "); // ex) 1 3 5 7
 
         int cnt = 0; // 소수 갯수
 
@@ -40,7 +40,7 @@ public class Ex1978 {
 
         }
 
-        System.out.print(cnt);
+        System.out.print(cnt); // ex) 3
 
     }
 
