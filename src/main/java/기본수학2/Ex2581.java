@@ -12,8 +12,8 @@ public class Ex2581 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int M = Integer.parseInt(br.readLine());
-        int N = Integer.parseInt(br.readLine());
+        int M = Integer.parseInt(br.readLine()); // ex) 60 or 64
+        int N = Integer.parseInt(br.readLine()); // ex) 100 or 65
 
         prime = new boolean[N + 1];
 
@@ -33,10 +33,10 @@ public class Ex2581 {
         }
 
         if (sum == 0) { // 소수가 없으면
-            System.out.println(-1);
+            System.out.println(-1); // M = 64, N = 65 일 때 출력값
         } else {
-            System.out.println(sum);
-            System.out.println(min);
+            System.out.println(sum); // ex) 620
+            System.out.println(min); // ex) 61
         }
 
     }
