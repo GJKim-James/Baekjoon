@@ -15,12 +15,12 @@ public class Ex1929 {
 
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-        int M = Integer.parseInt(st.nextToken());
-        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken()); // 3
+        int N = Integer.parseInt(st.nextToken()); // 16
 
         prime = new boolean[N + 1];
 
-        find_prime();
+        find_prime(); // 소수 찾기
 
         StringBuilder sb = new StringBuilder();
 
@@ -30,10 +30,15 @@ public class Ex1929 {
             }
         }
 
-        System.out.print(sb);
+        System.out.print(sb); // 3
+                              // 5
+                              // 7
+                              // 11
+                              // 13
 
     }
 
+    // 에라토스테네스의 체 알고리즘
     public static void find_prime() {
 
         // true 이면 소수 아니고, false 이면 소수
